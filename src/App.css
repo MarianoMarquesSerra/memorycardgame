@@ -8,7 +8,7 @@
 }
 
 .cards-container{
-    width: 900px;
+    width: 800px;
     height: 600px;
     border: 1p solid white;
 }
@@ -34,3 +34,17 @@
     height: calc(200px - 10px);
     width: calc(250px -10px);
 }
+
+@media (max-width: 600px) {
+    .card{
+        display: inline-block;
+        margin: 5px;
+        height: calc(100px - 5px);
+        width: calc(150px -5px);
+        cursor: pointer;
+    }
+    .card-image{
+        height: calc(100px - 5px);
+        width: calc(150px -5px);
+    }
+  }

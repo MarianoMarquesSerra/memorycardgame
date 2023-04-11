@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import Card from './components/Card';
 import {images} from './import';
+import LogoMemoryCard from './Images/MemoryCardLogo.jpg';
 
 
 function App() {
@@ -69,6 +70,7 @@ function App() {
 
   return (
     <div className="App">
+      <img src={LogoMemoryCard} className="LogoImg"/>
       <div className='cards-container'>
       {
           cards.map((card, index)=>{
